@@ -1,0 +1,22 @@
+{
+    "name": "server",
+    "description": "FYP API",
+    "author": "matthew",
+    "version": "0.0.1",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "cookie-session": "*",
+        "ejs": "*",
+        "express": "^4.16.4",
+        "formidable": "^1.2.1",
+        "heroku": "^7.19.4",
+        "mime-types": "^2.1.21",
+        "mongodb": "^2.2.36",
+        "mongoose": "^5.3.13",
+        "package.json": "^2.0.1"
+    },
+    "engine": "node >= 0.10.0",
+    "scripts": {
+        "start": "node server"
+    }
+}
