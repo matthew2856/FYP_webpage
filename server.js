@@ -27,4 +27,11 @@ app.get('/getgps', function (req, res) {
 		})
 	})
 })
+
+
+app.get('/', function (req, res) {
+		res.redirect('/getgps')
+
+})
+
 app.listen(process.env.PORT || 8099);
