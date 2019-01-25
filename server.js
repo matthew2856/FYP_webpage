@@ -2,7 +2,7 @@
 var express = require('express');
 var app = express();
 var assert = require('assert');
-var Schema = mongoose.Schema;
+//var Schema = mongoose.Schema;
 
 var MongoClient = require('mongodb').MongoClient;
 var mongourl = 'mongodb://testuser:testing123@ds151814.mlab.com:51814/fyp_data';
